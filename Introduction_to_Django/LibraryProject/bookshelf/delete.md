@@ -2,8 +2,8 @@
 4. `delete.md`
 ```markdown
 # Delete Operation
-
+from bookshelf.models import Book
 ```python
-book1.delete()
+book.delete()
 Book.objects.all()
 # Output: <QuerySet []>
